@@ -8,7 +8,7 @@ published: true
 {% include JB/setup %}
 
 
-![](//IMG_1028.JPG)
+
 
 ## Update Author Attributes
 
@@ -23,7 +23,8 @@ In `_config.yml` remember to specify your own data:
       twitter : username
 
 The theme should reference these variables whenever needed.
-    
+![](//IMG_1028.JPG)
+
 ## Sample Posts
 
 This blog contains sample posts which help stage pages and blog data.
