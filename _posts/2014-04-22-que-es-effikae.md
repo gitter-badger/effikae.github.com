@@ -1,5 +1,9 @@
 ---
 published: true
+layout: post
+description: ""
+category: null
+tags: []
 ---
 
 {% include JB/setup %}
