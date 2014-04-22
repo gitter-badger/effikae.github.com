@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Effikae"
+title: Effikae
 tagline: IoT Project
 published: true
 ---
@@ -8,7 +8,7 @@ published: true
 {% include JB/setup %}
 
 
-
+![](/https://github.com/effikae/effikae.github.com/blob/master/img/028.JPG)
 
 ## Update Author Attributes
 
@@ -22,8 +22,7 @@ In `_config.yml` remember to specify your own data:
       github : username
       twitter : username
 
-The theme should reference these variables whenever needed.
-![](//IMG_1028.JPG)
+
 
 ## Sample Posts
 
