@@ -15,11 +15,6 @@ Effikae es una plataforma colaborativa para la comparación del grado de desempe
     - luis
 
 my function `myFunction`
+\\(\alpha^2 + \beta^2 = \gamma^2\\) 
 
 ****
-
-
-
-
-
-      
