@@ -2,6 +2,8 @@
 published: true
 ---
 
+{% include JB/setup %}
+
 ## Nace Effikae
 ### ¿Qué es Effikae?
 
