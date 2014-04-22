@@ -8,6 +8,7 @@ published: true
 {% include JB/setup %}
 
 
+![](//IMG_1028.JPG)
 
 ## Update Author Attributes
 
