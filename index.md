@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Hello World!"
-tagline: Supporting tagline
+title: "Effikae"
+tagline: IoT Project
 published: true
 ---
 
