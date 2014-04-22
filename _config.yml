@@ -10,9 +10,9 @@ markdown: kramdown
 # so be sure to set them if your theme uses them.
 #
 title : Effikae
-tagline: Site Tagline
+tagline: an IoT Project
 author :
-  name : Name Lastname
+  name : Juan Carlos Cortés
   email : effikae@gmail.com
   github : effikae.github.io
   twitter : effikae
