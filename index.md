@@ -8,7 +8,7 @@ published: true
 {% include JB/setup %}
 
 
-![](/https://github.com/effikae/effikae.github.com/blob/master/img/028.JPG)
+![](/img/028.JPG)
 
 ## Update Author Attributes
 
