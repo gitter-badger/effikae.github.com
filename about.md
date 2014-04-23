@@ -4,5 +4,5 @@ title: "About"
 description: ""
 ---
 {% include JB/setup %}
-Bienvenido a Effikae. Mi rincón académico   ^_^.
+Mi rincón académico   ^_^.
 
