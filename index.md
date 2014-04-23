@@ -7,4 +7,4 @@ published: true
 
 {% include JB/setup %}
 
-![](//IMG/028.JPG)
+![](/img/028.JPG)
