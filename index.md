@@ -7,8 +7,8 @@ published: true
 
 {% include JB/setup %}
 
-    {% ditaa %}
-        +---------+
-        | Huzzah! |
-        +---------+
-    {% endditaa %}
+{% ditaa %}
+  +---------+
+  | Huzzah! |
+  +---------+
+{% endditaa %}
