@@ -6,7 +6,7 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 encoding: UTF-8
-markdown: kramdown
+markdown: redcarpet2
 
 
 # Themes are encouraged to use these universal variables 
