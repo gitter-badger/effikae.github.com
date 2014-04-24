@@ -8,3 +8,75 @@ tags : [intro, beginner, jekyll, tutorial]
 
 
 This is an example of a draft. Read more here: [http://jekyllrb.com/docs/drafts/](http://jekyllrb.com/docs/drafts/)
+
+Markdown Cheatsheet
+
+# Header H1
+
+## Header H2
+
+## Qué es Effikae
+
+Es un proyecto que pretende la comparación del grado de desempeño de las instalaciones térmicas.
+
+## A quién está dirigido
+
+A todos los que quieren monitorizar y comparar variables de sus instalaciones térmicas.
+
+Emphasis, aka italics, with *asterisks* or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
+
+
+
+my function `myFunction`
+\\(\alpha^2 + \beta^2 = \gamma^2\\) 
+
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+To Do 
+
+* Pigments 
+* Search
+* Gravatar
+* About
+	* Linkedin
+	* Png
+* Comprobar Google Statistics
+
+
+[Google][google] is a popular search engine and [Wikipedia][wiki] an online encyclopedia. 
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+You can now reference these links in any markdown file.
+For example:
+
+
+
+### Changes
+
