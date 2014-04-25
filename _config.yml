@@ -5,15 +5,10 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
-simple_search: http://google.com/search
+
 encoding: UTF-8
 markdown: kramdown
-paginate: 10
-kramdown:
-  extensions:
-    - autolink
-    - footnotes
-    - smart
+
 
 
 # Themes are encouraged to use these universal variables 
@@ -93,7 +88,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : effikae
     livefyre :
       site_id : 123
     intensedebate :
