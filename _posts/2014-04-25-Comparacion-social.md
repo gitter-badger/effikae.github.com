@@ -4,7 +4,7 @@ title:  "Evolución de las ciudades inteligentes"
 tagline: 
 description: 
 category: "Sociología"
-tags: [Comparación social, Eficiencia, Smart city]
+tags: [comparación social, eficiencia, smart city]
 ---
 
 {% include JB/setup %}
