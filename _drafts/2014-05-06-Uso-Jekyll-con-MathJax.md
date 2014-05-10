@@ -15,7 +15,7 @@ Gracias a esto y a que [Jekyll](http://jekyllbootstrap.com/usage/jekyll-quick-st
 
 Por otro lado con [GitHub](https://github.com) podemos llevar un control de cambios y además puedes hospedar nuestro sitio  gratuitamente compartiendo nuestro trabajo con una gran comunidad `Open Source`.
 
-En esta plataforma hay gran cantidad de código que podemos utilizar como por ejemplo [Prose](http://prose.io) que es un editor de contenido diseñado para mantener páginas web, es decir llevado práctica, para escribir cualquier post desde cualquier dispositivo.
+En esta plataforma hay gran cantidad de código que podemos utilizar como por ejemplo [Prose](http://prose.io) que es un editor de contenido diseñado para mantener páginas web, es decir que se puede utilizar en la práctica para escribir cualquier post desde cualquier dispositivo.
 
 Gracias a [Mathjax](http://www.mathjax.org) podemos hacer que las fórmulas sean vistas por todos los navegadores de la misma forma. La sintaxis que se emplea es la misma que la que se usa en *LaTeX*. Pero antes, se han de añadir algunas líneas código al archivo `_layouts/default.html`
 
