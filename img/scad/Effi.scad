@@ -23,8 +23,8 @@ color("Lightgrey") minkowski()
 }
 
 
-use <texto.scad>
- translate([-au/4, -au/3, au*3/4]){
-%scale([au/10,au/10,au/10]) color("LightSeaGreen") drawtext("Effi");
+use <cry.scad>
+ translate([-au/2, -au/3, au*3/4]){
+scale([au/10,au/10,au/10]) color("LightSeaGreen") drawtext(":(");
 }
 
