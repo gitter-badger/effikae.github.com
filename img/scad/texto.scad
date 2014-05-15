@@ -1,5 +1,5 @@
 //Draw text
-scale([4,4,4]) drawtext("Effi");
+scale([2,2,2]) drawtext("Effi");
 
 //Draw character set
 //scale([2,2,2]) drawtext(" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}");

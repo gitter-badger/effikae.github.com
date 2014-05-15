@@ -1,7 +1,7 @@
 
 
 $fn=128;
-au = 1.6180339887;
+au = 6*1.6180339887;
 module a3()
 {
 for ( i = [0 : 40 : 360] ){
@@ -14,17 +14,19 @@ a3();
 
 
 
-translate([0, 0, au/4]){
+translate([0, 0, au/2]){
 color("Lightgrey") minkowski()
 {
- cube([au/2,au/2,au/8],center=true);
- cylinder(r=au/2,h=au/2);
+ cube([au/2,au/2,au/4],center=true);
+ cylinder(r=au/2,h=au/3);
+
+
 }
 }
 
 
-use <cry.scad>
- translate([-au/2, -au/3, au*3/4]){
-scale([au/10,au/10,au/10]) color("LightSeaGreen") drawtext(":(");
+use <texto.scad>
+ translate([-au/2, 0, au]){
+scale([au/20,au/20,au/20]) color("LightSeaGreen") drawtext("Effi");
 }
 
