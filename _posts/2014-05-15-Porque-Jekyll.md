@@ -17,6 +17,8 @@ Gracias a este lenguaje, *JB* puede construirnos páginas **web estáticas** sin
 
 Por otro lado con [GitHub](https://github.com) podemos llevar un control de cambios y hospedar gratuitamente nuestro sitio en [Github Pages](https://pages.github.com). Aquí compartiremos nuestro trabajo con una gran comunidad `Open Source`.
 
+![center](/figs/2014-05-15-Porque-Jekyll/logojekyll.png) 
+
 En cuanto a editores [Sublime text](http://www.sublimetext.com) es una buena opción. Pero si queremos usar uno externo [Prose](http://prose.io) está alojado en Github y nos puede valer perfectamente para mantener nuestras páginas web y editar nuestros post desde cualquier dispositivo.
 
 La publicación de *código* es muy importante y [pigments](http://pygments.org) lo resuelve bastante bien con casi todos los lenguajes de programación. Se agradece siempre ver el código comentado y bien representado con colores. 
