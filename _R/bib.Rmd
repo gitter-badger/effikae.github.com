@@ -1,0 +1,73 @@
+---
+title: "bib"
+author: "jccm"
+date: "20 de mayo de 2014"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+
+```{r setup, echo=FALSE, message=FALSE}
+## Change if you want other options
+require("knitr")
+opts_chunk$set(fig.width=5, fig.height=5, cache=TRUE)
+
+## Load knitcitations with a clean bibliography
+library(knitcitations)
+cleanbib()
+cite_options(tooltip=TRUE)
+
+## I made my own citing function since citep() doesn't work like I want to with
+## urls that are not really pages themselves like part of a GitHub repo.
+mycitep <- function(x, short=NULL, year=substr(date(), 21, 24), tooltip=TRUE) {
+  res <- tmp <- citep(x)
+  if(!is.null(short)) {
+		res <- gsub("></a>", paste0(">", short, "</a>"), tmp)
+	}		
+	if(tooltip) {
+		res <- gsub("\\?\\?\\?\\?", year, res)
+	}
+	res <- gsub("span> ", "span>", res)
+	res
+}
+
+## Here's an example
+# mycitep("https://github.com/lcolladotor/lcollado753", "Collado, 2013")
+```
+```{r bibsetup, echo=FALSE, message=FALSE, warning=FALSE}
+write.bibtex(c("knitcitations" = citation("knitcitations")), file = "pkgs.bib")
+bib <- read.bibtex("pkgs.bib")
+```
+
+
+
+
+
+
+### References
+
+Las citas se han hecho con el paquete `knitcitations` `r mycitep(bib[["knitcitations"]], "Boettiger, 2013")`.
+
+
+```{r bibliography, results='asis', echo=FALSE, cache=FALSE}
+## Print bibliography
+bibliography()
+```
