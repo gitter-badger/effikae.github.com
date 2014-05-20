@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Knitr y Jekyll-Bootstrap"
-tags: [knitr, jekyll, tutorial]
+tags: [knitr, jekyll bootstrap, tutorial]
 categories: "R"
 
 ---
