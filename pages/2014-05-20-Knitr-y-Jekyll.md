@@ -78,7 +78,9 @@ plot(cars)
 ![center](/figs/2014-05-20-Knitr-y-Jekyll/fig1.png) 
 
 
+### Referencias
 
+- A. Murandi (2012) [Taller Caldum: Introducción: R + knitr + markdown](http://fobos.inf.um.es/R/introknitr/introknitrs.html#(1))
 
 ### Reproductibilidad
 

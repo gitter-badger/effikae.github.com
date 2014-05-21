@@ -59,7 +59,9 @@ par(mar = c(4, 4, 0.1, 0.1), omi = c(0, 0, 0, 0))
 plot(cars)
 ```
 
+### Referencias
 
+- A. Murandi (2012) [Taller Caldum: Introducción: R + knitr + markdown](http://fobos.inf.um.es/R/introknitr/introknitrs.html#(1))
 
 ### Reproductibilidad
 
