@@ -9,6 +9,9 @@ tags: [3D Printing]
 
 El transporte marítimo es hoy la piedra angular del comercio internacional. El 90% de las mercancías que viajan por el mundo se transportan por barco. 
 
+
+La impresión 3D ha sido
+
 Seguro que Los costes de fabricación se han reducido al mínimo deslocalizándo las industrias del lugar del consumo, pero ¿es este un modelo sostenible para la sociedad y energéticamente eficiente? 
 
 Según el articulo de CIMdata "Los beneficios de una fabricación digital" las prganizaciones que utilizan este tipo de tecnología pueden llegar a mejorar la producción enormemente debido a la reducción de los desechos, incrementado un 30% el tiempo en llegar al mercado y un 40% en la planificación de planta un 13 % 

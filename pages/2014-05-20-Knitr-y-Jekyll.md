@@ -78,7 +78,6 @@ plot(cars)
 ![center](/figs/2014-05-20-Knitr-y-Jekyll/fig1.png) 
 
 
-### Referencias
 
 
 ### Reproductibilidad

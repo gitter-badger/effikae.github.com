@@ -59,7 +59,6 @@ par(mar = c(4, 4, 0.1, 0.1), omi = c(0, 0, 0, 0))
 plot(cars)
 ```
 
-### Referencias
 
 
 ### Reproductibilidad
