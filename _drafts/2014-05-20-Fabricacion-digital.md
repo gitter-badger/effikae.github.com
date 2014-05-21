@@ -23,10 +23,7 @@ Se está a punto de dar el siguiente paso en la fabricación digital.
 [Zauba]() 
 Piezas de gran tamaño 
 
-servomotores
-velocIdades elevadas aumenta
-la incidencia de la pl'Opagaci6n de
-errores de posicionamiento debidos
+servomotores velocIdades elevadas aumenta la incidencia de la pl'Opagaci6n de errores de posicionamiento debidos
 a defectos de calibración
 Calibración precisa
 bucle abierto motores pai>O a paso
@@ -42,7 +39,7 @@ Limitación tecnológica del FFF
 
 **Referencias**
 
-[Protectia, patentes y marcas]()Art. Caduca la patente clave para la impresión 3D. Francesca Nandolini. Marzo 2014.
+- Francesca Nandolini (2014), [Caduca la patente clave para la impresión 3D]()
 [RepRap]()Sitio Oficial.
 
 
