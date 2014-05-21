@@ -31,4 +31,6 @@ Hay muchas publicaciones sobre *JB* y muchos derivados. Pero lo que me llama rea
 
 - Fellgernon Bit (2013), [Creating your Jekyll-Bootstrap powered blog for R blogging](http://lcolladotor.github.io/2013/11/09/new-Fellgernon-Bit-setup-in-Github/#.U3ylIl5zGc_)
 
+- Can Jin (2013), [Set up a blog using Jekyll Bootstrap](http://blog.jincan.info/web/2013/05/04/set-up-a-blog-using-jekyll-bootstrap/)
+
 - Sitios construidos con Jekyll (2014), [Github.com](https://github.com/jekyll/jekyll/wiki/Sites)
