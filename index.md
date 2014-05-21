@@ -7,4 +7,4 @@ published: true
 
 {% include JB/setup %}
 
-![](/img/effistl.stl)
+![](/img/028.JPG)
