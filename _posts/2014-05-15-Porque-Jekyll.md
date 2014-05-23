@@ -27,7 +27,7 @@ Hay muchas publicaciones sobre *JB* y muchos derivados. Pero lo que me llama rea
 
 ### Referencias ###
 
-- Markdown quick reference and showcase, [Markdown Cheatsheet (Johannes-Kutsch)](https://https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- Johannes-Kutsch (2013), [Markdown Cheatsheet](https://https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 - Fellgernon Bit (2013), [Creating your Jekyll-Bootstrap powered blog for R blogging](http://lcolladotor.github.io/2013/11/09/new-Fellgernon-Bit-setup-in-Github/#.U3ylIl5zGc_)
 
