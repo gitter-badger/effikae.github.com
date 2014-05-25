@@ -2,7 +2,7 @@
 layout: post
 title: "Fabricación digital distribuida"
 description: "Open Source"
-category: 
+category: "Impresión 3D"
 tags: [3D Printing, FabLab]
 ---
 {% include JB/setup %}
