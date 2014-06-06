@@ -6,11 +6,13 @@ tags: [SIoT, IoT]
 ---
 {% include JB/setup %}
 
-Reflexionando sobre estos últimos diez años me doy cuenta de como efectivamente internet, la web y sobre todo las redes sociales han cambiado cualitativamente nuestra forma de vida en casi todos los ordenes. 
+Reflexionando sobre estos últimos diez años me doy cuenta de como efectivamente internet, la web y sobre todo las redes sociales han cambiado cualitativamente nuestra forma de vida en casi todos sus ordenes. 
 
 Hoy parece que le toca el turno a las cosas **"Things"** pues empieza a pasarles lo mismo. Un termostato ya no es solo un termostato, una cerradura no es solo una cerradura, un coche, un cafetera, etc. Y es que las cosas también quieren conectarse a Internet, o mejor dicho, queremos descubrir, crear y gestionar nuevas redes de recursos sociales con estas cosas. Curioso cuanto menos ya que esto es parte de nuestra propia naturaleza o una proyección de ella.
 
 No dejo de pensar y sobre todo me acuerdo cuando veo la luz del frigorífico si esto o aquello será parte de un servicio o parte de un recurso. Muchas veces no comprendo el valor que tiene conectar una parte del mundo físico a internet a través de un dispositivo. 
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/25061404" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/xgmedia/io-t-uxsalon01web" title="The Internet of Things (and the myth of the “Smart” Fridge)" target="_blank">The Internet of Things (and the myth of the “Smart” Fridge)</a> </strong> from <strong><a href="http://www.slideshare.net/xgmedia" target="_blank">Avi Itzkovitch</a></strong> </div>
 
 Al final, tanto si es un modelo de negocio como si no, la diferencia mas importante entre el IoT y otras redes técnicas es la componente social que se pretende dar a los objetos, es decir, la estructura derivada de los modelos de redes sociales que ya conocemos.
 
