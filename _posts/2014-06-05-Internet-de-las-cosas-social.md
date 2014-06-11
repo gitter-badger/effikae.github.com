@@ -26,6 +26,6 @@ Como colofón a este artículo mencionar lo que decía **Homero** en el siglo V 
 **Referencias**
 
 - Michele Nitli, et. al. (2014), [Trustworthiness Management in the Social Internet of Things](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6547148&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F69%2F6814899%2F06547148.pdf%3Farnumber%3D6547148)
-- Luigi Atzori, et. al. (2014), [SIoT: Giving a Social Structure to the Internet of Things](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6042288&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6042288)
+- Luigi Atzori, et. al. (2011), [SIoT: Giving a Social Structure to the Internet of Things](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6042288&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6042288)
 - John A. Stanovic, et. al. (2014), [Research Directions for the Internet of Things](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6774858&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F6488907%2F6702522%2F06774858.pdf%3Farnumber%3D6774858)
 
