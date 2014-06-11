@@ -6,13 +6,13 @@ tags: [Smart Things, Data Mining, Internet of Things (IoT)]
 ---
 {% include JB/setup %}
 
-Después de leer detenidamente el estudio que ha realizado la International Data Corporation (IDC) para la empresa $EMC^{2}$ con las previsiones de expansión del **Universo Digital (UD)**, no me cabe ninguna duda que el Internet de las Cosas (IoT) llegará a tener un peso de datos comparable con el que generan hoy los ordenadores, los teléfonos móviles, las tabletas, etc. 
+Después de leer detenidamente el estudio que ha realizado la International Data Corporation (IDC) para la empresa [\\(EMC^{2}\\)](http://www.emc.com/leadership/digital-universe/index.htm?pid=home-dig-uni-090414) con las previsiones de expansión del **Universo Digital (UD)**, no me cabe ninguna duda que el Internet de las Cosas (IoT) llegará a tener un peso de datos comparable con el que generan hoy los ordenadores, los teléfonos móviles, las tabletas, etc. 
 
-Según este informe, el **UD** también tiene su materia oscura, ya que el 90% de los datos solo se utiliza una única vez. Además, por otro lado, sólo una mínima parte del total de los datos se puede considerar datos útiles; es decir, sólo *el 22%* son datos que se pueden analizar.
+Según este informe, el **UD** también tiene su materia oscura, ya que el 90% de los datos sólo se utiliza una única vez. Además, por otro lado, sólo una mínima parte del total de los datos se puede considerar datos útiles; es decir, sólo *el 22%* son datos que se pueden analizar.
 
 Llega a sorprender finalmente que **menos del 5%** de esos datos útiles pasan a analizase posteriormente, lo cual deja una enorme cantidad energía y datos desaprovechados por el camino.
 
-Dado que el conocimiento no son únicamente datos, me viene a la memoria una fábula de `Borges` que se titula, [Funes El Memorioso](http://www.literatura.us/borges/funes.html) y cuenta como todo para el personaje era información, este tenía además la desgracia de recordarlo todo sin pararse a analizar absolutamente nada. Un poco ridículo ¿verdad?
+Dado que el conocimiento no sólo son únicamente datos, me viene a la memoria una fábula de `Borges` que se titula, [Funes El Memorioso](http://www.literatura.us/borges/funes.html) y cuenta como todo para el personaje era información, este tenía además la desgracia de recordarlo todo sin pararse a analizar absolutamente nada. Un poco ridículo ¿verdad?
 
 Puesto que se prevee que millones de dispositivos inteligentes se conecten a la Red se deben de seguir desarroyando métodos para gestionar, analizar y realizar una **minería efectiva de datos desde el origen**; esto es, hacer de los datos medidos en bruto, una información relevante, puntual y accesible.
 
@@ -20,11 +20,11 @@ Afortunadamente hoy se es más consciente de que la minería de datos es necesar
 
 ![center](/figs/2014-06-11-Mineria-de-datos-en-el-iot/iot.png) 
 
-Como modelo básico de minería de datos en el filo del IoT *Gaura, et. al.* propone un algoritmo cíclico en los nodos (G-SIP) y varias variantes, en dónde la clave está en la formación de un **estado estimado** a través estos datos medidos en bruto y un **detector de cambio de estado**. 
+Como modelo de minería de datos en el filo del IoT, *Gaura, et. al.* nos propone un algoritmo cíclico en los nodos (G-SIP) y varias variantes, en dónde la clave está en la formación de un **estado estimado** a través estos datos medidos en bruto y un **detector de cambio de estado**. 
 
 Independientemente de las capas de las que se quiera dotar a la infraestructura, esta aproximación proporciona una información sumaria muy importante de **datos relativos a cosas**, y que es muy útil para identificar cuando se produce un cambio significativo, por lo que no se transmitirá información a la Red si no es necesario, es decir: menos datos a mandar, menos energía utilizada y menos capacidad de almacenamiento en el servidor remoto.
 
-Este modelo se puede complicar aún más  ya que habrá datos significativos de la interacción entre humanos, entre humanos y sistemas y entre sistemas que puedan ser usados para adaptar los servicios proporcionados por el IoT *(Tsai, et. al.)*.
+Este modelo se puede complicar aún más ya que habrá datos significativos de la interacción entre humanos, entre humanos y sistemas y entre sistemas que puedan ser usados para adaptar los servicios proporcionados por el IoT *(Tsai, et. al.)*.
 
 Como conclusión y sin perder de vista las posibilidades que ofrece la computación y el almacenamiento en Red, las soluciones que se presentan para el desempeño de la minería de datos son múltiples y dependerán de cada caso en concreto. Eso sí, tendrán que ser analizadas desde las restricciones de computación, de memoria y las limitaciones de energía que tienen los dispositivos, consiguiendo al mismo tiempo los resultados relevantes que tengan que darse en las aplicaciones que se construyan para el usuario.
 
