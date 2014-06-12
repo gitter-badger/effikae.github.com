@@ -14,7 +14,7 @@ Llega a sorprender finalmente que **menos del 5%** de esos datos útiles pasan a
 
 Dado que el conocimiento no sólo son únicamente datos, me viene a la memoria una fábula de `Borges` que se titula, [Funes El Memorioso](http://www.literatura.us/borges/funes.html) y cuenta como todo para el personaje era información, este tenía además la desgracia de recordarlo todo sin pararse a analizar absolutamente nada. Un poco ridículo ¿verdad?
 
-Puesto que se prevee que millones de dispositivos inteligentes se conecten a la Red se deben de seguir desarroyando métodos para gestionar, analizar y realizar una **minería efectiva de datos desde el origen**; esto es, hacer de los datos medidos en bruto, una información relevante, puntual y accesible.
+Puesto que se prevee que millones de dispositivos inteligentes se conecten a la Red se deben de seguir desarrollando métodos para gestionar, analizar y realizar una **minería efectiva de datos desde el origen**; esto es, hacer de los datos medidos en bruto, una información relevante, puntual y accesible.
 
 Afortunadamente hoy se es más consciente de que la minería de datos es necesaria para el crecimiento y la sostenibilidad de Internet y por consiguiente del *IoT*.
 
