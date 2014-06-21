@@ -1,0 +1,136 @@
+Machine Learning with R. #1. Data Structures, Managing and Understanding Data
+========================================================
+author: Juan Carlos Cortés
+date: 17 June 2014
+
+
+# Data Structures
+========================================================
+
+- Vectors
+- Factors
+- Lists
+- Arrays
+- Data frames
+
+
+Vectors
+========================================================
+
+- Character, numeric, logical 
+```{r}
+name <- c("Pump","Boiler","Valve","Pipe") 
+temperature <- c(65.5, 85.3, 40.3, 22.2) 
+status <- c(TRUE, TRUE, TRUE, FALSE) 
+```
+- Special values:
+  - NULL, indicate the absence of any value
+  - NA, indicates a missing value.
+
+
+Factors
+========================================================
+Features that represent a characteristic with categories of values are known as nominal. 
+
+```{r}
+state <- factor(c("ON","OFF","ON","ON"))
+state
+```
+
+Lists
+========================================================
+Store an ordered set of values
+```{r}
+pump <- list(elem1 = name,
+             elem2 = temperature,
+             elem3 = state)
+pump$elem3
+pump$elem1[2]
+```
+
+Data Frames
+========================================================
+a list of vector or factors
+```{r}
+data <- data.frame(name, temperature, status, state)
+data
+data$name[3]
+```
+
+Matrixes and arrays
+========================================================
+two-dimensional table with rows and columns of data.
+```{r}
+m <- matrix(c('a', 'b', 'c', 'd'), nrow = 2) # idem with ncol=2
+m
+m[1,]
+
+```
+
+# Managing Data 
+========================================================
+
+- RData
+- CSV files
+- SQL database
+- Excel files
+
+Saving and loading: Rdata
+========================================================
+
+```{r}
+x=3; y=2; z=1
+save(x,y,z,file="mydata.RData")
+load("mydata.RData")
+
+save.image() # to write your entire session to a file .RData
+```
+
+Importing and saving: CSV files
+========================================================
+
+```{r}
+url <- "http://www.quandl.com/api/v1/datasets
+/EUROSTAT/CRIM_PLCE_42.csv"
+pt_data<-read.csv(url, stringsAsFactors = FALSE)
+write.csv(pt_data, file = "pt_data.csv")
+head(pt_data)
+```
+
+Importing: Excel files
+========================================================
+```{r}
+require(XLConnect)
+tmp = tempfile(fileext = ".xls")
+download.file(url = "http://www.econ.yale.edu/~shiller/data/chapt26.xls", destfile = tmp)
+readWorksheetFromFile(file = tmp, sheet = "Data", header = FALSE, startRow = 9, endRow = 151)
+```
+
+
+Importing data from SQL databases
+========================================================
+
+
+# Understanding data
+========================================================
+
+- Structure of data
+- Numeric variables
+  - Central tendency.
+  - Spread
+    - variance and standard deviation
+  - Visualizing
+    - Boxplots
+    - Histograms
+  uniform and normal distributions
+
+
+
+
+Exploring the structure of data
+========================================================
+
+
+
+
+
