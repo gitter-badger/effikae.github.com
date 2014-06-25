@@ -18,7 +18,9 @@ Puesto que se prevee que millones de dispositivos inteligentes se conecten a la 
 
 Afortunadamente hoy se es más consciente de que la minería de datos es necesaria para el crecimiento y la sostenibilidad de Internet y por consiguiente del *IoT*.
 
+
 ![center](/figs/2014-06-11-Mineria-de-datos-en-el-iot/iot.png) 
+
 
 Como modelo de minería de datos en el filo del IoT, *Gaura, et. al.* nos propone un algoritmo cíclico en los nodos (G-SIP) y varias variantes, en dónde la clave está en la formación de un **estado estimado** a través de los datos medidos en bruto y un **detector de cambio de estado**. 
 

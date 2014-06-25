@@ -19,7 +19,7 @@ Un gran actor que ha contribuido a este desarrollo es el movimiento [RepRap](htt
 
 Gracias al prototipado rápido las organizaciones también pueden mejorar sus costes de producción tradicional debido a la reducción de los desechos, tiempo en llegar al mercado, mejoras en la planificación de planta, etc.  
 
-Algunos estudios realizados indican que las empresas que ya están fabricando productos de polímero en pequeños lotes están reduciendo drasticamente los costes del ciclo de vida del producto, ya que disminuyen su demanda acumulada de energía con respecto a la fabricación tradicional, potenciando también el desarroyo y la industria local.
+Algunos estudios realizados indican que las empresas que ya están fabricando productos de polímero en pequeños lotes están reduciendo drásticamente los costes del ciclo de vida del producto, ya que disminuyen su demanda acumulada de energía con respecto a la fabricación tradicional, potenciando también el desarrollo y la industria local.
 
 Afortunadamente este año puede ser un buen año para la fabricación distribuida en los `FabLabs` ya que ha caducado la patente [US5597520](http://www.google.com/patents/US5597520) "Simultaneous multiple layer curing in stereolithography" y otras dos patentes lo harán en 2015 y 2016 respectivamente: [US6007318](https://www.google.com/patents/US6007318) y [US5554336](https://www.google.com/patents/US5554336). Por lo que una nueva generación de impresoras 3D `Open Source` podrán ser capaces de imprimir objetos mas grandes, con mayor precisión, más rápidamente y con una más amplia variedad de materiales. 
 

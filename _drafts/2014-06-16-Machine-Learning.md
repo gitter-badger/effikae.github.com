@@ -1,41 +1,76 @@
 ---
 layout: post
-title: "IoT and Machine Learning"
+title: " "
 category: "Machine Learning"
-tags: [Machine Learning, Internet of Things (IoT)]
+tags: [Machine Learning, Internet of Things (IoT), Analytics]
 ---
 {% include JB/setup %}
-WEKA open-source project in machine learning: containing tools for data pre-processing, classification, regression, clustering, association rules, and visualization. The Weka project was started in 1992 business intelligence features
 
-given an IoT data set, the machine learning algorithm has to deduce a logic based on a pattern in the data.
+El aprendizaje de las máquinas o `Machine learning` es una parte de la inteligencia artificial (IA) que permite a los ordenadores aprender automáticamente aplicando un proceso inductivo estadístico sobre una serie de datos. 
 
-Machine learning techniques we explore are:
+En palabras del profesor Arthur L. Samuel (1901 - 1990), científico pionero de la IA, es el campo de estudio que proporciona a las computadoras la habilidad de aprender sin ser programadas.
 
-Supervised and unsupervised learning
-Neural Networks
-Machine Learning System Design
+Desde sus orígenes académicos en 1930 la inteligencia artificial ha experimentado una evolución muy rápida debida tanto al incremento expotencial de la capacidad de computación como por los avances en los campos de la estadística, la teoría de la probabilidad, el análisis funcional, etc. 
+
+these techniques could be applied to IOT datasets. 
+
+Prediction Examples bassed on datasets (energy, pollution)
+Optimzation based (traffic routing, commute optimization)
+Pattern identifying (predict hotspots based on health care data)
+New business proceeses based on machine learning for objects that have to navigate an unpredictable domain (driverless cars, drones)
+
+Eficiencia de las organizaciones
+revolución industrial o segunda edad de las máquinas (Brynjolfsson, McAfee), ya que si antaño con la máquina de vapor las máquinas suplían o aumentaban las capacidades físicas del hombre, hoy las máquinas están demostrando ser muy útiles en el desempeño de algunas cualidades de la inteligencia humana. 
+
+SIn darnos cuenta estamos automatizando cada vez más tareas cognitivas, y en algunas situaciones se eliminarán para siempre los controladores humanos y dejando el control en algorítmos de computador.
+
+En Julio veremos la versión publica de Microsoft Azure ML 
+
+
+
+El proyecto de sofware abierto WEKA empezó aplicándose en los negocios en 1992 contiene herramientas para que las máquinas aprendan: containing tools for data pre-processing, classification, regression, clustering, association rules, and visualization. 
+
+********
+
+Machine learning is helping to mitigate issues in real time and to predictively optimize energy usage and cost.
+
+El apredizaje de loas máquinas estña ayudando a mitigar los  y a predecir la optimizacion de energía
+
+En este preceso de convergencia el futurp de la web integrará el "Cloud", las API's, las redes de sensores, la minería de datos y los motores de decisión. Como acumulamos datos y los problemas que tenemos que resolver cada vez son más difíciles. Me gustaría sabar cuales de los conceptos de la inteligencia artificial se alican a este reto. 
+
+Tomar decisiones en tiempo real
+
+
+Las técnicas del aprendizaje de las máquinas exploran los siguientes campos:
+
+Los métodos má comunes son:
+Aprendizaje supervisado y no supervisado  
+Redes Neuronales
+Diseño de sistemas de aprendizaje de máquinas
 Clustering
-Anomaly Detection
+Detección de anomalías
 Recommendation Systems
+
 Large-Scale Machine learning systems
 Programming paradigms and Languages for machine learning
 Computation at the edge or Computation at the core
-
 
 Setting the Stage: IoT and Machine Learning
 This talk will cover strategies to apply machine learning algorithms to IoT data
 Ajit Jaokar, Founder, FutureText
 
-Monitoring Bikes and Bikers in Washington DC
-There is an explosion of sensor data becoming available, leading to the term Internet of Things.  But how difficult is it to pull all that data together and to do something sensible with it?  In this paper, we pull 8 sensory data sources and transform and enrich the data to create profiles and segments around customers that were not available before.  We then apply time series analysis, geo-localization, and image visualization to take that data and make it actionable.   Public data sources as well as open source software is used so that a working example can be shared with all Rosaria Silipo, Data Mining consultant, DMR
 
-Three Machine Learning applications in the Industry
-The practical applications of IoT in the Industry and what opportunities it holds for even small and medium sized companies that have limited resources. Starting with my experience from doing HutGrip and working in Chattanooga, Tennessee manufacturing companies to figure out what is the biggest ROI they can see and get right away from an IoT solution. The industries we explored include Printing and Packaging, Food Production, Wine production, Textiles and Carpet Manufacturing Induction Heating – and we have talked and worked with the small and medium sized companies. We will explore their perspective and understating about how this technology can help and what are the benefits and challenges they see. What are some specific ways they use Data Analytics algorithms to help them solve problems? We will see some of the algorithms that we have implemented and are also widely spread including – forecasting algorithms using STL decomposition optimized for time-series data. We will also explore more complex algorithms like anomaly detection and building Neural Networks for time series prediction and modelling.
-Bogdana is a Computer Scientist, Internet of Things and AI hacker, Exponential Studies graduate at Singularity University – NASA Ames, CA, TEDx speaker. Co-founder at HutGrip - a platform to help equipment providers create value added services by utilizing a Cloud-based infrastructure and Data analytics algorithms. Also co-founder at Hackidemia where she organizes technology workshops with children in Eastern Europe. Her projects have received numerous awards from competitions like Microsoft Imagine Cup and Startup Weekend Sofia. Excited about the future of work in a Networked Economy and Machine Learning
-Bogdana Rakova, Co-founder, HutGrip
+
 
 **Referencias**
 
+- [The Second Machine Age]() by Erik Brynjolfsson and Andrew McAfee (2014)
+
+- Francis J. Alexander (oct, 2013) [Machine Learning]() 
+
+- Tyson Condie [Machine Learning for Big Data]()
+
+- Tomas Olsson (May, 2013) [Evaluating Machine Learning for Predicting Next-Day Hot Water Production of a Heat Pump](http://www.idt.mdh.se/kurser/ct3340/ht12/MINICONFERENCE/FinalPapers/ircse12_submission_25.pdf)
 
 
 

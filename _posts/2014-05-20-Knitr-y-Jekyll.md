@@ -9,7 +9,7 @@ categories: "R"
 
 [Knitr](http://yihui.name/knitr/) es el paquete de [R](http://www.r-project.org/) que nos permite incorporar a nuestras publicaciones o **post** los resultados obtenidos en `RStudio`. Para ello es necesario incluir en el archivo *R Markdown* los trozos de código R que necesitamos compilar.  Al final **knitr** generará como resultado una página *html* lista para verse en cualquier navegador.
 
-Es importante ejecutar en el terminal el siguiente script `knitpages.R` para que el flujo de trabajo de Jekyll-Bootstrap tenga en cuenta los archivos **R Markdown**. Previamente dotaremos al archivo de permisos suficientes y crearemos el directorio en donde se encontrarán los archivos (.Rmd) `_R`, el directorio donde se encrontrarán las figuras `_figs` y el directorio a la que irán los archivos *Markdown* convertidos `pages`. 
+Es importante ejecutar en el terminal el siguiente script `knitpages.R` para que el flujo de trabajo de Jekyll-Bootstrap tenga en cuenta los archivos **R Markdown**. Previamente dotaremos al archivo de permisos suficientes y crearemos el directorio en donde se encontrarán los archivos (.Rmd) `_R`, el directorio donde se encontrarán las figuras `_figs` y el directorio a la que irán los archivos *Markdown* convertidos `pages`. 
 
 
 {% highlight r %}
