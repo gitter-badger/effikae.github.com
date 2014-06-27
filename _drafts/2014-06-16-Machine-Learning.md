@@ -1,42 +1,36 @@
 ---
 layout: post
-title: " "
+title: "Aprendiendo en el IoT"
 category: "Machine Learning"
 tags: [Machine Learning, Internet of Things (IoT), Analytics]
 ---
 {% include JB/setup %}
 
-El aprendizaje de las máquinas o `Machine learning` es una parte de la inteligencia artificial (IA) que permite a los ordenadores aprender automáticamente aplicando un proceso inductivo estadístico sobre una serie de datos. 
+El aprendizaje de las máquinas o `Machine learning (ML)` es una parte de la **inteligencia artificial (IA)** que permite a los ordenadores aprender automáticamente aplicando sobre una serie de datos un proceso inductivo estadístico. 
 
-En palabras del profesor Arthur L. Samuel (1901 - 1990), científico pionero de la IA, es el campo de estudio que proporciona a las computadoras la habilidad de aprender sin ser programadas.
+En palabras del profesor [Arthur L. Samuel](http://es.wikipedis computadoras la habilidad de aprendea.org/wiki/Arthur_L._Samuel) (1901 - 1990), científico pionero de la **IA**, es el campo de estudio que proporciona a lar sin ser programadas.
 
-Desde sus orígenes académicos en 1930 la inteligencia artificial ha experimentado una evolución muy rápida debida tanto al incremento expotencial de la capacidad de computación como por los avances en los campos de la estadística, la teoría de la probabilidad, el análisis funcional, etc. 
+Hoy la **IA** es una tecnología madura y han pasado ya muchos incremento expotencial de la capacidad de computación y a losaños desde sus orígenes académicos en 1930. Desde entonces, se  ha experimentado una evolución extraordinaria debida al  avances en los campos de la estadística, la teoría de la probabilidad, el análisis funcional, etc. 
 
-these techniques could be applied to IOT datasets. 
 
-Prediction Examples bassed on datasets (energy, pollution)
-Optimzation based (traffic routing, commute optimization)
-Pattern identifying (predict hotspots based on health care data)
-New business proceeses based on machine learning for objects that have to navigate an unpredictable domain (driverless cars, drones)
 
-Eficiencia de las organizaciones
-revolución industrial o segunda edad de las máquinas (Brynjolfsson, McAfee), ya que si antaño con la máquina de vapor las máquinas suplían o aumentaban las capacidades físicas del hombre, hoy las máquinas están demostrando ser muy útiles en el desempeño de algunas cualidades de la inteligencia humana. 
+Autores contemporáneos como Brynjolfsson y McAfee, dicen que estamos viviendo una segunda revolución industrial o **segunda edad de las máquinas**.  ya que al igual que la máquina de vapor suplió o aumentó las capacidades físicas del hombre a principios del siglo XIX, las máquinas están demostrando ser muy útiles en el desempeño de algunas cualidades de la inteligencia humana. 
 
-SIn darnos cuenta estamos automatizando cada vez más tareas cognitivas, y en algunas situaciones se eliminarán para siempre los controladores humanos y dejando el control en algorítmos de computador.
+Es posible que sin darnos cuenta estemos automatizando cada vez más **tareas cognitivas**, llegando en algunas situaciones, a sustituir el controlador humano por un algoritmo de computador.
+
+También el aprendizaje de máquina está convergiendo con otras tecnologías como el `Cloud`, las `API's`, la minería de datos, los motores de decisión, etc, y por supuesto las redes de sensores del Internet de las Cosas `IoT`
+
+Basándonos en estos datos se dan muchos ejemplos: Identificación de patrones (tratamiento de enfermedades), Optimización (rutas de tráfico, uso de la energía) y predicción (coste energía, contaminación).
+
+New business proceeses based on machine learning for objects that have to navigate an unpredictable doman (driverless cars, drones)
 
 En Julio veremos la versión publica de Microsoft Azure ML 
-
-
 
 El proyecto de sofware abierto WEKA empezó aplicándose en los negocios en 1992 contiene herramientas para que las máquinas aprendan: containing tools for data pre-processing, classification, regression, clustering, association rules, and visualization. 
 
 ********
 
-Machine learning is helping to mitigate issues in real time and to predictively optimize energy usage and cost.
-
-El apredizaje de loas máquinas estña ayudando a mitigar los  y a predecir la optimizacion de energía
-
-En este preceso de convergencia el futurp de la web integrará el "Cloud", las API's, las redes de sensores, la minería de datos y los motores de decisión. Como acumulamos datos y los problemas que tenemos que resolver cada vez son más difíciles. Me gustaría sabar cuales de los conceptos de la inteligencia artificial se alican a este reto. 
+ 
 
 Tomar decisiones en tiempo real
 
@@ -51,13 +45,7 @@ Clustering
 Detección de anomalías
 Recommendation Systems
 
-Large-Scale Machine learning systems
-Programming paradigms and Languages for machine learning
-Computation at the edge or Computation at the core
 
-Setting the Stage: IoT and Machine Learning
-This talk will cover strategies to apply machine learning algorithms to IoT data
-Ajit Jaokar, Founder, FutureText
 
 
 
@@ -70,7 +58,6 @@ Ajit Jaokar, Founder, FutureText
 
 - Tyson Condie [Machine Learning for Big Data]()
 
-- Tomas Olsson (May, 2013) [Evaluating Machine Learning for Predicting Next-Day Hot Water Production of a Heat Pump](http://www.idt.mdh.se/kurser/ct3340/ht12/MINICONFERENCE/FinalPapers/ircse12_submission_25.pdf)
 
 
 
