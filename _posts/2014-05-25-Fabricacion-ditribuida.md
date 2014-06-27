@@ -12,9 +12,7 @@ La impresión 3D se ha popularizado en los últimos años. De las diversas técn
 Un gran actor que ha contribuido a este desarrollo es el movimiento [RepRap](http://reprap.org/wiki/RepRap) que bajo el principio del `self constructing` preconiza que una impresora puede construir piezas de una nueva impresora.
 
 
-<div style="text-align: center; margin: auto"><object type="application/x-shockwave-flash" style="width:450px; height:366px;" data="http://vimeo.com/moogaloop.swf?clip_id=12768578&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ff9933&amp;fullscreen=1" allowfullscreen="true" allowscriptaccess="always">
-<param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=12768578&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=ff9933&amp;fullscreen=1" allowfullscreen="true" allowscriptaccess="always" />
-</object><div style="font-size: 0.8em"><a href="http://www.tools4noobs.com/online_tools/vimeo_xhtml/"></a></div></div>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://player.vimeo.com/video/12768578' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
 
 Gracias al prototipado rápido las organizaciones también pueden mejorar sus costes de producción tradicional debido a la reducción de los desechos, tiempo en llegar al mercado, mejoras en la planificación de planta, etc.  

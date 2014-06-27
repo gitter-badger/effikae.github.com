@@ -133,10 +133,4 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
   
 
-  gems: [jekyll_figure]
-    figures:
-      dir: /figs
-    figures:
-      enumerate: true
-    figures:
-      analytics: true
+ 

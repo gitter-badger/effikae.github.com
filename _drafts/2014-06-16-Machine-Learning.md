@@ -12,6 +12,9 @@ En palabras del profesor [Arthur L. Samuel](http://es.wikipedis computadoras la 
 
 Hoy la **IA** es una tecnología madura y han pasado ya muchos incremento expotencial de la capacidad de computación y a losaños desde sus orígenes académicos en 1930. Desde entonces, se  ha experimentado una evolución extraordinaria debida al  avances en los campos de la estadística, la teoría de la probabilidad, el análisis funcional, etc. 
 
+<center>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/Uu0RUVlO4T0' frameborder='0' allowfullscreen></iframe></div>
+</center>
 
 
 Autores contemporáneos como Brynjolfsson y McAfee, dicen que estamos viviendo una segunda revolución industrial o **segunda edad de las máquinas**.  ya que al igual que la máquina de vapor suplió o aumentó las capacidades físicas del hombre a principios del siglo XIX, las máquinas están demostrando ser muy útiles en el desempeño de algunas cualidades de la inteligencia humana. 
