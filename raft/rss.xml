@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Effikae</title>
+        <description>Effikae - Juan Carlos Cortés</description>
+        <link>http://effikae.github.io</link>
+        <link>http://effikae.github.io</link>
+        <lastBuildDate>2014-06-30T18:23:48+02:00</lastBuildDate>
+        <pubDate>2014-06-30T18:23:48+02:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Minería de datos en el IoT</title>
+                <description>
+&lt;p&gt;Después de leer detenidamente el estudio que ha realizado la International Data Corporation (IDC) para la empresa &lt;a href=&quot;http://www.emc.com/leadership/digital-universe/index.htm?pid=home-dig-uni-090414&quot;&gt;\(EMC^{2}\)&lt;/a&gt; con las previsiones de expansión del &lt;strong&gt;Universo Digital (UD)&lt;/strong&gt;, no me cabe ninguna duda que el Internet de las Cosas (IoT) llegará a tener un peso de datos comparable con el que generan hoy los ordenadores, los teléfonos móviles, las tabletas, etc. &lt;/p&gt;
+
+&lt;p&gt;Según este informe, el &lt;strong&gt;UD&lt;/strong&gt; también tiene su materia oscura, ya que el 90% de los datos sólo se utiliza una única vez. Además, por otro lado, sólo una mínima parte del total de los datos se puede considerar datos útiles; es decir, sólo &lt;em&gt;el 22%&lt;/em&gt; son datos que se pueden analizar.&lt;/p&gt;
+
+&lt;p&gt;Llega a sorprender finalmente que &lt;strong&gt;menos del 5%&lt;/strong&gt; de esos datos útiles pasan a analizase posteriormente, lo cual deja una enorme cantidad energía y datos desaprovechados por el camino.&lt;/p&gt;
+
+&lt;p&gt;Dado que el conocimiento no sólo son únicamente datos, me viene a la memoria una fábula de &lt;code&gt;Borges&lt;/code&gt; que se titula, &lt;a href=&quot;http://www.literatura.us/borges/funes.html&quot;&gt;Funes El Memorioso&lt;/a&gt; y cuenta como todo para el personaje era información, este tenía además la desgracia de recordarlo todo sin pararse a analizar absolutamente nada. Un poco ridículo ¿verdad?&lt;/p&gt;
+
+&lt;p&gt;Puesto que se prevee que millones de dispositivos inteligentes se conecten a la Red se deben de seguir desarrollando métodos para gestionar, analizar y realizar una &lt;strong&gt;minería efectiva de datos desde el origen&lt;/strong&gt;; esto es, hacer de los datos medidos en bruto, una información relevante, puntual y accesible.&lt;/p&gt;
+
+&lt;p&gt;Afortunadamente hoy se es más consciente de que la minería de datos es necesaria para el crecimiento y la sostenibilidad de Internet y por consiguiente del &lt;em&gt;IoT&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/figs/2014-06-11-Mineria-de-datos-en-el-iot/iot.png&quot; alt=&quot;center&quot; /&gt; &lt;/p&gt;
+
+&lt;p&gt;Como modelo de minería de datos en el filo del IoT, &lt;em&gt;Gaura, et. al.&lt;/em&gt; nos propone un algoritmo cíclico en los nodos (G-SIP) y varias variantes, en dónde la clave está en la formación de un &lt;strong&gt;estado estimado&lt;/strong&gt; a través de los datos medidos en bruto y un &lt;strong&gt;detector de cambio de estado&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Independientemente de las capas de las que se quiera dotar a la infraestructura, esta aproximación proporciona una información sumaria muy importante de &lt;strong&gt;datos relativos a cosas&lt;/strong&gt;, y que es muy útil para identificar cuando se produce un cambio significativo, por lo que no se transmitirá información a la Red si no es necesario, es decir: menos datos a mandar, menos energía utilizada y menos capacidad de almacenamiento en el servidor remoto.&lt;/p&gt;
+
+&lt;p&gt;Este modelo se puede complicar aún más ya que habrá datos significativos de la interacción entre humanos, entre humanos y sistemas y entre sistemas que puedan ser usados para adaptar los servicios proporcionados por el IoT &lt;em&gt;(Tsai, et. al.)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Como conclusión y sin perder de vista las posibilidades que ofrece la computación y el almacenamiento en Red, las soluciones que se presentan para el desempeño de la minería de datos son múltiples y dependerán de cada caso en concreto. Eso sí, tendrán que ser analizadas desde las restricciones de computación, de memoria y las limitaciones de energía que tienen los dispositivos, consiguiendo al mismo tiempo los resultados relevantes que tengan que darse en las aplicaciones que se construyan para el usuario.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Referencias&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chun-Wei Tsai, et. al. (2014), &lt;a href=&quot;http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;amp;arnumber=6674155&amp;amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F9739%2F5451756%2F06674155.pdf%3Farnumber%3D6674155&quot;&gt;Data Mining for Internet of Things: A Survey&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Elena I. Gaura, el al. (2013), &lt;a href=&quot;http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;amp;arnumber=6042288&amp;amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6042288&quot;&gt;Edge Mining the Internet of Things&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Shen Bin. et. al. (2013), &lt;a href=&quot;https://www.ceid.upatras.gr/webpages/faculty/vasilis/Courses/SpatialTemporalDM/Papers/InternetOfThings05476146.pdf&quot;&gt;Research on Data Mining Models for the Internet
+of Things&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+                <link>http://effikae.github.io/internet%20of%20things/2014/06/11/Mineria-de-datos-en-el-iot</link>
+                <guid>http://effikae.github.io/internet%20of%20things/2014/06/11/Mineria-de-datos-en-el-iot</guid>
+                <pubDate>2014-06-11T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Internet de las cosas será social (SIoT)</title>
+                <description>
+&lt;p&gt;Reflexionando sobre estos últimos diez años me doy cuenta de como efectivamente Internet, la web y sobre todo las redes sociales han cambiado cualitativamente nuestra forma de vida en casi todos sus ordenes. &lt;/p&gt;
+
+&lt;p&gt;Hoy parece que le toca el turno a las cosas &lt;strong&gt;“Things”&lt;/strong&gt; pues empieza a pasarles lo mismo. Un termostato ya no es solo un termostato, una cerradura no es solo una cerradura, un coche, un cafetera, etc. Y es que las cosas también quieren conectarse a Internet, o mejor dicho, queremos descubrir, crear y gestionar nuevas redes de recursos sociales con estas cosas. Curioso cuanto menos ya que esto es parte de nuestra propia naturaleza o una proyección de ella.&lt;/p&gt;
+
+&lt;p&gt;No dejo de pensar y sobre todo me acuerdo cuando veo la luz del frigorífico si esto o aquello será parte de un servicio o parte de un recurso. Muchas veces no comprendo el valor que tiene conectar una parte del mundo físico a Internet a través de un dispositivo. &lt;/p&gt;
+
+&lt;center&gt;&lt;iframe src=&quot;http://www.slideshare.net/slideshow/embed_code/25061404&quot; width=&quot;427&quot; height=&quot;356&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;https://www.slideshare.net/xgmedia/io-t-uxsalon01web&quot; title=&quot;The Internet of Things (and the myth of the “Smart” Fridge)&quot; target=&quot;_blank&quot;&gt;The Internet of Things (and the myth of the “Smart” Fridge)&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/xgmedia&quot; target=&quot;_blank&quot;&gt;Avi Itzkovitch&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/center&gt;
+
+&lt;p&gt;Al final, tanto si es un modelo de negocio como si no, la diferencia mas importante entre el IoT y otras redes técnicas es la componente social que se pretende dar a los objetos, es decir, la estructura derivada de los modelos de redes sociales que ya conocemos.&lt;/p&gt;
+
+&lt;p&gt;Es interesante reflexionar sobre los estudios del profesor de antropología &lt;strong&gt;Alan P. Fiske&lt;/strong&gt;, ya que comentaba que existen cuatro áreas en donde los humanos instintivamente conectan con los valores de las relaciones sociales, o dicho con sus palabras, “organizan su socialidad”. Estos valores son: la posición de autoridad, la compartición comunal, la búsqueda de la igualdad y el precio de mercado. &lt;/p&gt;
+
+&lt;p&gt;Y es que debemos de ser conscientes de que tenemos cuanto menos un pasado antropológico especial que marcará el futuro de Internet (IoF) y el futuro del Internet de las Cosas (IoT) y nos da pie a pensar que también los objetos pueden evolucionar desde una estructura de relaciones similar, en donde cada nodo de la red es un objeto capaz de establecer de forma autónoma relaciones sociales con otros objetos siguiendo unas reglas establecidas por el propietario.&lt;/p&gt;
+
+&lt;p&gt;Como colofón a este artículo mencionar lo que decía &lt;strong&gt;Homero&lt;/strong&gt; en el siglo V a.C. “Somos lo que Comemos”… Hoy afortunadamente somos en gran parte lo que compartimos con los demás, en un grado especial de afinidad, es decir: de parentesco, de localización, de trabajo, de cohabitabilidad, etc.  Esta es la herencia que recibirá el Internet de las Cosas y que marcará la forma en que los objetos comparten la información del mundo físico o recursos a través de la web para ser puestos a disposición de los demás.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Referencias&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Michele Nitli, et. al. (2014), &lt;a href=&quot;http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;amp;arnumber=6547148&amp;amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F69%2F6814899%2F06547148.pdf%3Farnumber%3D6547148&quot;&gt;Trustworthiness Management in the Social Internet of Things&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Luigi Atzori, et. al. (2011), &lt;a href=&quot;http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;amp;arnumber=6042288&amp;amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6042288&quot;&gt;SIoT: Giving a Social Structure to the Internet of Things&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;John A. Stanovic, et. al. (2014), &lt;a href=&quot;http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;amp;arnumber=6774858&amp;amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F6488907%2F6702522%2F06774858.pdf%3Farnumber%3D6774858&quot;&gt;Research Directions for the Internet of Things&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+                <link>http://effikae.github.io/internet%20of%20things/2014/06/05/Internet-de-las-cosas-social</link>
+                <guid>http://effikae.github.io/internet%20of%20things/2014/06/05/Internet-de-las-cosas-social</guid>
+                <pubDate>2014-06-05T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Fabricación digital distribuida</title>
+                <description>
+&lt;p&gt;La impresión 3D se ha popularizado en los últimos años. De las diversas técnicas de prototipado rápido la de fusión de material depositado es la que más se ha desarrollado hasta ahora.&lt;/p&gt;
+
+&lt;p&gt;Un gran actor que ha contribuido a este desarrollo es el movimiento &lt;a href=&quot;http://reprap.org/wiki/RepRap&quot;&gt;RepRap&lt;/a&gt; que bajo el principio del &lt;code&gt;self constructing&lt;/code&gt; preconiza que una impresora puede construir piezas de una nueva impresora.&lt;/p&gt;
+
+&lt;style&gt;.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }&lt;/style&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;http://player.vimeo.com/video/12768578&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;Gracias al prototipado rápido las organizaciones también pueden mejorar sus costes de producción tradicional debido a la reducción de los desechos, tiempo en llegar al mercado, mejoras en la planificación de planta, etc.  &lt;/p&gt;
+
+&lt;p&gt;Algunos estudios realizados indican que las empresas que ya están fabricando productos de polímero en pequeños lotes están reduciendo drásticamente los costes del ciclo de vida del producto, ya que disminuyen su demanda acumulada de energía con respecto a la fabricación tradicional, potenciando también el desarrollo y la industria local.&lt;/p&gt;
+
+&lt;p&gt;Afortunadamente este año puede ser un buen año para la fabricación distribuida en los &lt;code&gt;FabLabs&lt;/code&gt; ya que ha caducado la patente &lt;a href=&quot;http://www.google.com/patents/US5597520&quot;&gt;US5597520&lt;/a&gt; “Simultaneous multiple layer curing in stereolithography” y otras dos patentes lo harán en 2015 y 2016 respectivamente: &lt;a href=&quot;https://www.google.com/patents/US6007318&quot;&gt;US6007318&lt;/a&gt; y &lt;a href=&quot;https://www.google.com/patents/US5554336&quot;&gt;US5554336&lt;/a&gt;. Por lo que una nueva generación de impresoras 3D &lt;code&gt;Open Source&lt;/code&gt; podrán ser capaces de imprimir objetos mas grandes, con mayor precisión, más rápidamente y con una más amplia variedad de materiales. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Referencias&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;B.T. Wittbrodt, et. al. (2013), &lt;a href=&quot;https://www.academia.edu/4067796/Life-Cycle_Economic_Analysis_of_Distributed_Manufacturing_with_Open-Source_3-D_Printers&quot;&gt;Life-Cycle Economic Analysis of Distributed Manufacturing with Open-Source 3-D Printers&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;M. Kreiger, et. el. (2013), &lt;a href=&quot;http://pubs.acs.org/doi/abs/10.1021/sc400093k&quot;&gt;Environmental Life Cycle Analysis of Distributed Three-Dimensional Printing and Conventional Manufacturing of Polymer Products&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Francesca Nandolini (2014), &lt;a href=&quot;http://www.protectia.eu/blog/notas-de-prensa/caduca-patente-clave-para-impresion-3d/&quot;&gt;Caduca la patente clave para la impresión 3D&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <link>http://effikae.github.io/impresi%C3%B3n%203d/2014/05/25/Fabricacion-ditribuida</link>
+                <guid>http://effikae.github.io/impresi%C3%B3n%203d/2014/05/25/Fabricacion-ditribuida</guid>
+                <pubDate>2014-05-25T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Knitr y Jekyll-Bootstrap</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;http://yihui.name/knitr/&quot;&gt;Knitr&lt;/a&gt; es el paquete de &lt;a href=&quot;http://www.r-project.org/&quot;&gt;R&lt;/a&gt; que nos permite incorporar a nuestras publicaciones o &lt;strong&gt;post&lt;/strong&gt; los resultados obtenidos en &lt;code&gt;RStudio&lt;/code&gt;. Para ello es necesario incluir en el archivo &lt;em&gt;R Markdown&lt;/em&gt; los trozos de código R que necesitamos compilar.  Al final &lt;strong&gt;knitr&lt;/strong&gt; generará como resultado una página &lt;em&gt;html&lt;/em&gt; lista para verse en cualquier navegador.&lt;/p&gt;
+
+&lt;p&gt;Es importante ejecutar en el terminal el siguiente script &lt;code&gt;knitpages.R&lt;/code&gt; para que el flujo de trabajo de Jekyll-Bootstrap tenga en cuenta los archivos &lt;strong&gt;R Markdown&lt;/strong&gt;. Previamente dotaremos al archivo de permisos suficientes y crearemos el directorio en donde se encontrarán los archivos (.Rmd) &lt;code&gt;_R&lt;/code&gt;, el directorio donde se encontrarán las figuras &lt;code&gt;_figs&lt;/code&gt; y el directorio a la que irán los archivos &lt;em&gt;Markdown&lt;/em&gt; convertidos &lt;code&gt;pages&lt;/code&gt;. &lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# !/usr/bin/Rscript --vanilla&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# compiles all .Rmd files in _R directory into .md files in Pages directory,&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# if the input file is older than the output file.&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# run ./knitpages.R to update all knitr files that need to be updated.&lt;/span&gt;
+
+KnitPost &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&quot;kr&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;input&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; outfile&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; base.url &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# this function is a modified version of an example here:&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# http://jfisher-usgs.github.com/r/2012/07/03/knitr-jekyll/&lt;/span&gt;
+    require&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;knitr&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    opts_knit&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;set&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;base.url &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; base.url&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    fig.path &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; paste0&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;figs/&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; sub&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;.Rmd$&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; basename&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;input&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;/&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    opts_chunk&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;set&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;fig.path &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; fig.path&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    opts_chunk&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;set&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;fig.cap &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;center&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    render_jekyll&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    knit&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;input&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; outfile&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; envir &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; parent.frame&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kr&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;infile &lt;span class=&quot;kr&quot;&gt;in&lt;/span&gt; list.files&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;_R&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; pattern &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;*.Rmd&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; full.names &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    outfile &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; paste0&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;pages/&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; sub&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;.Rmd$&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;.md&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; basename&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;infile&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;# knit only if the input file is the last one modified&lt;/span&gt;
+    &lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;file.exists&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;outfile&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; file.info&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;infile&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;mtime &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; file.info&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;outfile&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;mtime&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        KnitPost&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;infile&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; outfile&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Para que las figuras estén centradas debemos de incorporar el siguiente código al archivo &lt;code&gt;/assets/themes/twitter-2.0/css/bootstrap.min.css&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[alt=center] {
+  display: block;
+  margin: auto;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A continuación se muestran algunos ejemplos que incorporan código R:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;summary&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;cars&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;##      speed           dist    
+##  Min.   : 4.0   Min.   :  2  
+##  1st Qu.:12.0   1st Qu.: 26  
+##  Median :15.0   Median : 36  
+##  Mean   :15.4   Mean   : 43  
+##  3rd Qu.:19.0   3rd Qu.: 56  
+##  Max.   :25.0   Max.   :120
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;par&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;mar &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; omi &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; c&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+plot&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;cars&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/figs/2014-05-20-Knitr-y-Jekyll/fig1.png&quot; alt=&quot;center&quot; /&gt; &lt;/p&gt;
+
+&lt;h3 id=&quot;referencias&quot;&gt;Referencias&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A. Murandi (2012) &lt;a href=&quot;http://fobos.inf.um.es/R/introknitr/introknitrs.html#(1)&quot;&gt;Taller Caldum: Introducción: R + knitr + markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reproductibilidad&quot;&gt;Reproductibilidad&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;r&quot;&gt;sessionInfo&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text&quot;&gt;## R version 3.0.3 (2014-03-06)
+## Platform: x86_64-apple-darwin10.8.0 (64-bit)
+## 
+## locale:
+## [1] es_ES.UTF-8/es_ES.UTF-8/es_ES.UTF-8/C/es_ES.UTF-8/es_ES.UTF-8
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  base     
+## 
+## other attached packages:
+## [1] knitr_1.5
+## 
+## loaded via a namespace (and not attached):
+## [1] evaluate_0.5.3 formatR_0.10   stringr_0.6.2  tools_3.0.3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+                <link>http://effikae.github.io/r/2014/05/20/Knitr-y-Jekyll</link>
+                <guid>http://effikae.github.io/r/2014/05/20/Knitr-y-Jekyll</guid>
+                <pubDate>2014-05-20T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Porqué Jekyll-Bootstrap</title>
+                <description>
+&lt;p&gt;Hay muchas plataformas de “blogs” disponibles ¿Porqué &lt;a href=&quot;http://jekyllbootstrap.com&quot;&gt;Jekyll-Bootstrap (JB)&lt;/a&gt;? &lt;/p&gt;
+
+&lt;p&gt;Después de haber utilizado algunos “blogs” te das cuenta de que las cosas que quieres publicar se te pueden ocurrir en cualquier lugar y hoy con cualquier editor de textos básico es muy fácil escribirlas utilizándo un sencillo lenguaje de marcación como &lt;code&gt;Markdown&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;Gracias a este lenguaje, &lt;em&gt;JB&lt;/em&gt; puede construirnos páginas &lt;strong&gt;web estáticas&lt;/strong&gt; sin la necesidad de que tengamos que instalar y mantener bases de datos. &lt;/p&gt;
+
+&lt;p&gt;Por otro lado con &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt; podemos llevar un control de cambios y hospedar gratuitamente nuestro sitio en &lt;a href=&quot;https://pages.github.com&quot;&gt;Github Pages&lt;/a&gt;. Aquí compartiremos nuestro trabajo con una gran comunidad &lt;code&gt;Open Source&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/figs/2014-05-15-Porque-Jekyll/logojekyll.png&quot; alt=&quot;center&quot; /&gt; &lt;/p&gt;
+
+&lt;p&gt;En cuanto a editores &lt;a href=&quot;http://www.sublimetext.com&quot;&gt;Sublime text&lt;/a&gt; es una buena opción. Pero si queremos usar uno externo &lt;a href=&quot;http://prose.io&quot;&gt;Prose&lt;/a&gt; está alojado en Github y nos puede valer perfectamente para mantener nuestras páginas web y editar nuestros “post” desde cualquier dispositivo.&lt;/p&gt;
+
+&lt;p&gt;La publicación de &lt;em&gt;código&lt;/em&gt; es muy importante y &lt;a href=&quot;http://pygments.org&quot;&gt;pigments&lt;/a&gt; lo resuelve bastante bien con casi todos los lenguajes de programación. Se agradece siempre ver el código comentado y bien representado con colores. &lt;/p&gt;
+
+&lt;p&gt;Hay muchas publicaciones sobre &lt;em&gt;JB&lt;/em&gt; y muchos derivados. Pero lo que me llama realmente la atención es el tiempo que nos podemos ahorrar con esta plataforma si lo que queremos es escribir &lt;strong&gt;textos técnicos&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;referencias&quot;&gt;Referencias&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Johannes-Kutsch (2013), &lt;a href=&quot;https://https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Markdown Cheatsheet&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fellgernon Bit (2013), &lt;a href=&quot;http://lcolladotor.github.io/2013/11/09/new-Fellgernon-Bit-setup-in-Github/#.U3ylIl5zGc_&quot;&gt;Creating your Jekyll-Bootstrap powered blog for R blogging&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Can Jin (2013), &lt;a href=&quot;http://blog.jincan.info/web/2013/05/04/set-up-a-blog-using-jekyll-bootstrap/&quot;&gt;Set up a blog using Jekyll Bootstrap&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sitios construidos con Jekyll (2014), &lt;a href=&quot;https://github.com/jekyll/jekyll/wiki/Sites&quot;&gt;Github.com&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <link>http://effikae.github.io/blogger/2014/05/15/Porque-Jekyll</link>
+                <guid>http://effikae.github.io/blogger/2014/05/15/Porque-Jekyll</guid>
+                <pubDate>2014-05-15T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Eficiencia y economía colaborativa</title>
+                <description>
+&lt;p&gt;Se da la paradoja de que vivimos en una época en la que coexiste un extraordinario desarrollo tecnológico y una falta de recursos económicos. Esto último es debido fundamentalmente a que la mitad de la riqueza mundial está en manos de un 1% de la población. &lt;/p&gt;
+
+&lt;p&gt;Coincidencia o no se están modificando los hábitos de los consumidores que menos tienen y transformando poco a poco el valor de las cosas que nos rodean. &lt;/p&gt;
+
+&lt;p&gt;Como consecuencia de esto hay un despertar del consumo colaborativo o economía colaborativa en las sociedades modernas y se espera que sea un fenómeno disruptivo en las próximas décadas.&lt;/p&gt;
+
+&lt;p&gt;Bajo este nuevo paradigma de comercio más justo e integrador, el consumidor, o lo que algunos llaman “prosumidor”, se convierte en parte activa de la cadena de valor y puede ahora vender, arrendar, compartir, intercambiar, permutar, o simplemente tener acceso a bienes y/o servicios a través de su comunidad.&lt;/p&gt;
+
+&lt;p&gt;Y es que, es más viable localizar y acceder a servicios y bienes que poseerlos. Por lo tanto en este escenario tiene mucho sentido hablar de &lt;code&gt;Eficiencia&lt;/code&gt; pues es la capacidad que tiene algo o alguien para conseguir un objetivo con los mínimos recursos posibles.  &lt;/p&gt;
+
+&lt;p&gt;La revista Time eligió al “consumo colaborativo” como una idea revolucionaria, que la crisis en Europa y EE.UU hizo crecer.   &lt;/p&gt;
+
+&lt;p&gt;Podéis ver muchos ejemplos de los nuevos modelos empresariales en Red (P2P) en &lt;a href=&quot;http://www.collaborativeconsumption.com/directory/?cats=67&quot;&gt;Collaborative Comsumption&lt;/a&gt; y es que ya algunos consumidores nos estamos empezando a cuestionar las siguientes cosas ¿Para qué ir a un hotel si alguien nos hospeda en su casa? ¿Para qué invertir en un martillo si solo necesitamos clavar un clavo? ¿Por qué comprar ropa si otro la tiene y no la usa?. &lt;/p&gt;
+
+&lt;p&gt;¿Merece la pena seguir manteniendo una economía que excluye a la mayoría de la población mundial?&lt;/p&gt;
+
+&lt;h3 id=&quot;referencias&quot;&gt;Referencias&lt;/h3&gt;
+
+&lt;p&gt;“consumo colaborativo”, término acuñado por &lt;a href=&quot;http://www.rachelbotsman.com&quot;&gt;Rachel Botsman&lt;/a&gt; en el libro “What’s Mine is (Y)ours: The Rise of Collaborative Consumption”&lt;/p&gt;
+
+&lt;p&gt;“El futuro de los negocios es compartir - La Malla”, &lt;a href=&quot;http://lisagansky.com&quot;&gt;Lisa Gansky&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;“Gobernar para las élites. Secuestro democrático y desigualdad económica”, &lt;a href=&quot;http://www.oxfamintermon.org/es/documentos/17/01/14/gobernar-para-elites-secuestro-democratico-desigualdad-economica&quot;&gt;Intermon Oxfam&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <link>http://effikae.github.io/sociolog%C3%ADa/2014/05/10/Economia-colaborativa</link>
+                <guid>http://effikae.github.io/sociolog%C3%ADa/2014/05/10/Economia-colaborativa</guid>
+                <pubDate>2014-05-10T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Evolución de las ciudades inteligentes</title>
+                <description>
+&lt;p&gt;El término &lt;a href=&quot;http://es.wikipedia.org/wiki/Ciudad_inteligente&quot;&gt;ciudad inteligente&lt;/a&gt; o &lt;code&gt;smart city&lt;/code&gt; es muy actual y tiene muchos matices vinculados con la &lt;strong&gt;eficiencia&lt;/strong&gt;. No solo llama la atención el plano tecnológico de este ecosistema, sino también las nuevas formas de cooperación que están emergiendo en las sociedades modernas.&lt;/p&gt;
+
+&lt;p&gt;Posiblemente tenga algo que ver en esta relación el concepto de &lt;code&gt;comparación social&lt;/code&gt; descrito por &lt;a href=&quot;http://es.wikipedia.org/wiki/Leon_Festinger&quot;&gt;Leon Festinger&lt;/a&gt; en 1954, ya que cada vez hay mas personas inerconectadas con intereses similares que están comparando sus habilidades conductuales y opiniones.&lt;/p&gt;
+
+&lt;p&gt;Hay muchos grupos en la &lt;code&gt;red&lt;/code&gt; de todos los tamaños y de todos los tipos, y dependiendo de la afinidad que tenga el sujeto con el grupo parece ser que hay una mayor o menor influencia sobre la autoestima del mismo como resultado de su autoevaluación. Es verdad que hay muchas cosas que no se pueden medir objetivamente pero si se pueden &lt;strong&gt;comparar aproximadamente&lt;/strong&gt; a la vista de un grupo amplio de personas. &lt;/p&gt;
+
+&lt;p&gt;Ahora bien, de esta comparación ¿puede existir una motivación hacia el cambio? Pues es posible que sí, y de hecho &lt;a href=&quot;http://es.wikipedia org/wiki/Teor%C3%ADa_de_la_equidad_laboral&quot;&gt;John S. Adams&lt;/a&gt; comenzó a estudiar este fenómeno en entornos laborales en el año 1963. El fué el primero que propuso una teoría para la &lt;strong&gt;motivación&lt;/strong&gt; de los trabajadores basada en el principio de &lt;code&gt;equidad&lt;/code&gt; al observar que las personas de un grupo de trabajo quieren comparar que hay una relación igual entre su contribución y sus resultados en comparación con los resultados y las contribuciones de otros. Es obvio que cuanto más diferencias existen menos voluntad hay de trabajo.&lt;/p&gt;
+
+&lt;p&gt;Por lo tanto creo que es posible un trabajo común hacia el cambio en el modelo de eficiencia de las ciudades menos &lt;code&gt;inteligentes&lt;/code&gt; basada en alguna forma de comparación social y cooperación social. Lo iremos descubriendo poco a poco.&lt;/p&gt;
+
+</description>
+                <link>http://effikae.github.io/sociolog%C3%ADa/2014/04/25/Comparacion-social</link>
+                <guid>http://effikae.github.io/sociolog%C3%ADa/2014/04/25/Comparacion-social</guid>
+                <pubDate>2014-04-25T00:00:00+02:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>
