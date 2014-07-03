@@ -17,10 +17,8 @@ Para aclarar lo anterior, tomaremos como ejemplo el algoritmo de nuestro filtro 
 
 <center>
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/Uu0RUVlO4T0' frameborder='0' allowfullscreen></iframe></div>
+<div style="margin-bottom:5px"> <strong> <a href="https://www.youtube.com/watch?v=Uu0RUVlO4T0" title="Machine Learning" target="_blank">Machine Learning</a> </strong> by <strong><a href="https://effikae.github.io" target="_blank">Effikae</a></strong> </div>
 </center>
-
-</iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.youtube.com/watch?v=Uu0RUVlO4T0" title="Machine Learning" target="_blank">Machine Learning</a> </strong> by <strong><a href="https://effikae.github.io" target="_blank">Effikae</a></strong> </div>
-
 
 Hoy la **IA** ya es una tecnología madura y ha experimentado una evolución extraordinaria desde sus orígenes académicos en 1930, debida a los avances en los campos de la estadística, la teoría de la probabilidad, el análisis funcional, etc. 
 
