@@ -1,5 +1,6 @@
 ---
 layout: post
+title:  "Evolución de las ciudades inteligentes"
 category : js
 tagline: "Testing highcharts"
 tags : [highcharts]
