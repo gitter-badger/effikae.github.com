@@ -14,6 +14,16 @@ Un gran actor que ha contribuido a este desarrollo es el movimiento [RepRap](htt
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://player.vimeo.com/video/12768578' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
+<center>
+	<div style="margin-bottom:5px"> 
+		<strong> 
+			<a href="http://www.dissenyhubbarcelona.cat/main/index.html" title="Cortometraje de animación para la exposición “Laboratori de Fabricació” del museo Disseny HUB Barcelona" target="_blank">“Laboratori de Fabricació” museo Disseny HUB - Barcelona</a> 
+		</strong> por 
+		<strong>
+			<a href="http://www.nueveojos.com/portfolio/full-printed/#sthash.x7SMqT4T.dpuf" target="_blank">www.nueveojos.com</a>
+		</strong> 
+	</div>
+</center>
 
 Gracias al prototipado rápido las organizaciones también pueden mejorar sus costes de producción tradicional debido a la reducción de los desechos, tiempo en llegar al mercado, mejoras en la planificación de planta, etc.  
 
