@@ -8,3 +8,4 @@ published: true
 {% include JB/setup %}
 
 ![](/img/028.JPG)
+

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: es
 title:  "Evolución de las ciudades inteligentes"
 tagline: 
 description: 

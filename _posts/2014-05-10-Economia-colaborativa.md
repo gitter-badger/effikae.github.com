@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: es
 title:  "Eficiencia y economía colaborativa"
 tagline: 
 description: 

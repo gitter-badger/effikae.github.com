@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: es
 title: "Knitr y Jekyll-Bootstrap"
 tags: [knitr, jekyll bootstrap, tutorial]
 categories: "R"

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: es
 title: "Aprendiendo para el IoT"
 category: "Machine Learning"
 tags: [Machine Learning, Internet of Things (IoT), Analytics]

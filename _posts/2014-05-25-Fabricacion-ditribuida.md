@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: es
 title: "Fabricación digital distribuida"
 description: "Open Source"
 category: "Impresión 3D"

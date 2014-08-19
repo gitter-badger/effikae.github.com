@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: es
 title: "Minería de datos en el IoT"
 category: "Internet of Things"
 tags: [Smart Things, Data Mining, Internet of Things (IoT)]
