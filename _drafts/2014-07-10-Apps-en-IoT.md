@@ -12,6 +12,24 @@ Término energía $PVPC$
 
 ## Glosario de términos ##
 
+<div class="blogs">
+  {% for post in site.posts %}
+    <article class="post">          
+      <h3><a href="{{ site.baseurl }}/{{ site.blogs }}{{ post.title }}">{{ post.title }}</a></h3>
+
+      {% assign wordCount = {{ post.content | size }} %}
+      {% if wordCount > 120 %}
+        <div class="entry">
+            {{ post.content | truncatewords:120}}
+        </div>
+
+        <a href="{{ site.baseurl }}{{ post.url}}" class="read-more">Read More</a>
+      {% else %}
+        {{ post.content }}
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
 
 ### Referencias ###
 
