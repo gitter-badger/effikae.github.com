@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: es
+locale: es
 title: "Internet de las cosas será social (SIoT)"
 category: "Internet of Things"
 tags: [SIoT, IoT]

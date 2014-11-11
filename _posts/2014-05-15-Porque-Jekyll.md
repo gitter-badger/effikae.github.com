@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: es
+locale: es
 title:  "Porqué Jekyll-Bootstrap"
 tagline: 
 description: 
